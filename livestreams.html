@@ -1,0 +1,19 @@
+
+  <!-- Add following section in the page's <head> tag -->
+  <link rel="stylesheet" href="//releases.flowplayer.org/7.2.7/skin/skin.css" >
+
+  <!-- jQuery library, include only once in the website -->
+  <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+  <!-- hls.js -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/hls.js/0.10.1/hls.light.min.js"></script>
+
+  <!-- Flowplayer library -->
+  <script src="//releases.flowplayer.org/7.2.7/flowplayer.min.js"></script>
+
+  <!-- Add following section in the page's <body> tag, where you need the player to be shown -->
+  <div class="flowplayer" data-live="true" data-share="false" data-ratio="0.5625">
+    <video autoplay>
+      <source type="application/x-mpegurl" src="https://live.johnsonscardamom.com/test/stream1/playlist.m3u8">
+    </video>
+  </div>

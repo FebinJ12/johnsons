@@ -1,0 +1,33 @@
+.new1{
+    text-align: center;
+}
+.t2{
+
+
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 5em;
+    font-weight: bold;
+    opacity: 80%;
+    
+}
+.t3{
+    font-weight: bold;
+    
+    color: white;
+}
+.t4{
+    font-weight: bold;
+    font-size: 1em;
+}
+.t5{
+    padding-left: 2em;
+    color: white;
+    font-style: italic;
+}
+.i3{
+    opacity: 90%;
+}
+.pd{
+    padding-top: 2em;
+}
